@@ -1,12 +1,12 @@
 import React from 'react';
 
 import styles from './App.module.less';
-import { Content } from './components/Content';
+import { Amethyst } from './components/Amethyst';
 
 function App() {
   return (
     <div className={styles.app}>
-      <Content />
+      <Amethyst />
     </div>
   );
 }
